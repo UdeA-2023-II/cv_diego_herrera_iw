@@ -103,10 +103,7 @@ const Hojadevida: React.FC = () => {
                                                         En este momento me desempeño como desarrollador Full-Stack. Dos años de experiencia con tecnologías como ReactJS, NextJS + VercelJS, FastAPI, Django, PostgreSQL, MongoDB, AWS, Azure, Google Cloud, Linux con distribuciones basadas en Arch y Debian.'/>
                             </div>
                             <div className="botonContratar">
-                            <VentanaModal nombre='HIRE ME' valor='He incluyendo ventas y atención al cliente, lo que 
-                                                        me ha permitido desarrollar habilidades de 
-                                                        comunicación, organización y gestión de 
-                                                        archivos' />                               
+                            <VentanaModal nombre='HIRE ME' valor='Llámame, no te arrepentirás!!!' titulo='APROVECHA!!!' />                               
                             </div>
                             </div>
                             <img src='/Diego_Herrera.jpeg' alt="Diego Herrera" id="imagen" />
