@@ -17,16 +17,18 @@ const Portafolio = ({ type = 'port', titulo, valor, link, url, descripcionImagen
       <div>
         <div className="flex flex-col  items-center gap-2 m-0">
           <div>
-            <img className=" mb-5 mt-5 h-210 w-300 " src={url} alt={descripcionImagen} />
-            <div className="text-3xl  font-bold text-center mb-10 mt-10 h-50 w-50 text-yellow-400">
+            <img className="mb-5 mt-5 h-210 w-300" src={url} alt={descripcionImagen} />
+            <div className="text-5xl font-bold text-center mb-5 mt-5 h-16 w-16 text-yellow-400">
               {Icon && <Icon />}
             </div>
           </div>
           <span className="text-1xl  font-bold text-center mb-2">{titulo}</span>
           <span className="text-base  text-gray-600 text-center mb-4">{valor}</span>
           {type === 'port' && link && (
-            <a className="text-yellow-400 hover:text-purple-600 visited:text-black" href={link}>
+            <a href={link}>
+            <div className="text-yellow-400 hover:text-purple-600 visited:text-yellow-400" >
               Learn More ᐅ
+              </div>
             </a>
           )}
         </div>
